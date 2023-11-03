@@ -1,378 +1,394 @@
 export default [
   {
-    "id": "ada-lovelace",
-    "name": "Ada Lovelace",
-    "shortDescription": "Pionera en la programación, primera programadora de la historia.",
-    "description": "Una visionaria matemática británica del siglo XIX, es aclamada como la primera programadora de la historia. Su colaboración con Charles Babbage en la creación de la Máquina Analítica la llevó a desarrollar algoritmos, incluyendo el famoso \"algoritmo de Bernoulli\", destinados a ser procesados por una máquina. Su visión pionera la convirtió en una figura fundamental en la informática y la inteligencia artificial. Lovelace demostró que las computadoras podían ir más allá de simples cálculos matemáticos, anticipando un mundo donde la programación sería esencial en la resolución de problemas complejos, dejando una huella imborrable en la ciencia y la tecnología.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/ada-lovelace.jpg",
-    "facts": {
-      "yearOfBirth": "1815",
-      "yearOfDeath": "1852",
-      "birthPlace": "Londres, Reino Unido",
-      "mainField": "Ciencia de la Computación"
+    "1": {
+      "id": "luke-skywalker",
+      "name": "Luke Skywalker",
+      "shortDescription": "Jedi hero of the Rebel Alliance",
+      "description": "Luke Skywalker, a young Jedi from Tatooine, played a crucial role in the defeat of the Galactic Empire.",
+      "imageUrl": "URL_DE_LA_IMAGEN_GENERADA",
+      "facts": {
+        "occupation": "Jedi",
+        "affiliation": "Rebel Alliance",
+        "placeOfBirth": "Tatooine",
+        "specie": "Human",
+        "age": "23 years",
+        "height": "1.72 meters"
+      }
     },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/genera-una-imagen-de-ada-lovelace2c-la-primera-prog/650a1eff8ff04b88833d5cdef0309441"
-    }
-  },
-  {
-    "id": "emmy-noether",
-    "name": "Emmy Noether",
-    "shortDescription": "Matemática destacada, teorema fundamental en álgebra abstracta.",
-    "description": "Una brillante matemática alemana, revolucionó la física teórica con sus contribuciones al teorema de conservación de la energía y el teorema de Noether, fundamentales en la teoría de la relatividad y la mecánica cuántica. A pesar de los obstáculos que enfrentó como mujer en la academia, sus investigaciones en álgebra abstracta y teoría de grupos son fundamentales en la física moderna. Su capacidad para unificar conceptos matemáticos y físicos marcó un hito en la historia de la ciencia, allanando el camino para futuras generaciones de científicas.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/emmy-noether.jpg",
-    "facts": {
-      "yearOfBirth": "1882",
-      "yearOfDeath": "1935",
-      "birthPlace": "Erlangen, Alemania",
-      "mainField": "Matemáticas"
+    "2": {
+      "id": "princess-leia-organa",
+      "name": "Princess Leia Organa",
+      "shortDescription": "Rebel leader and diplomat",
+      "description": "Princess Leia Organa, a strong-willed leader, fought tirelessly for the Rebel Alliance and the freedom of the galaxy.",
+      "imageUrl": "URL_DE_LA_IMAGEN_GENERADA",
+      "facts": {
+        "occupation": "Rebel leader",
+        "affiliation": "Rebel Alliance",
+        "placeOfBirth": "Alderaan",
+        "specie": "Human",
+        "age": "19 years",
+        "height": "1.50 meters"
+      }
     },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/create-an-image-of-of-a-german-woman2c-a-pioneering/6510ddb1e8254b928b8f8f1d5e95fea4"
-    }
-  },
-  {
-    "id": "hypatia-de-alejandria",
-    "name": "Hypatia de Alejandría",
-    "shortDescription": "Matemática y filósofa en la antigua Alejandría.",
-    "description": "Filósofa y matemática en la antigua Alejandría, desafió las normas de género de su época al destacar en una sociedad dominada por hombres. Su legado incluye importantes contribuciones a la geometría y la astronomía, así como su destacado papel como maestra y defensora del conocimiento en una época de agitación política. Hypatia demostró que las mujeres podían sobresalir en campos intelectuales y su valentía al mantener sus creencias filosóficas la convierte en un símbolo de resistencia y sabiduría en la historia de la ciencia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/hypatia-de-alejandria.jpg",
-    "facts": {
-      "yearOfBirth": "circa 360",
-      "yearOfDeath": "415",
-      "birthPlace": "Alejandría, Egipto",
-      "mainField": "Matemáticas, Filosofía"
+    "3": {
+      "id": "han-solo",
+      "name": "Han Solo",
+      "shortDescription": "Charming smuggler and pilot",
+      "description": "Han Solo, the charming rogue from Corellia, piloted the Millennium Falcon and aided the Rebel cause.",
+      "imageUrl": "URL_DE_LA_IMAGEN_GENERADA",
+      "facts": {
+        "occupation": "Smuggler",
+        "affiliation": "Rebel Alliance",
+        "placeOfBirth": "Corellia",
+        "specie": "Human",
+        "age": "29 years",
+        "height": "1.80 meters"
+      }
     },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/create-a-vivid-digital-artwork-or-painting-that-de/6510df0ebe1a4807af22175452761e1a"
-    }
-  },
-  {
-    "id": "marjorie-lee-browne",
-    "name": "Marjorie Lee Browne",
-    "shortDescription": "Matemática, contribuyó a la teoría de números.",
-    "description": "Matemática estadounidense, destacó en una época en la que las mujeres afroamericanas enfrentaban múltiples barreras en la educación superior. No solo obtuvo su doctorado en matemáticas, sino que también se convirtió en una destacada educadora, promoviendo la diversidad en las ciencias matemáticas y desafiando la discriminación racial y de género. Su compromiso con la educación y su capacidad para inspirar a futuras generaciones la convierten en un modelo a seguir para las mujeres en la ciencia, dejando una huella perdurable en la historia académica.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/marjorie-lee-browne.jpg",
-    "facts": {
-      "yearOfBirth": "1914",
-      "yearOfDeath": "1979",
-      "birthPlace": "Memphis, Estados Unidos",
-      "mainField": "Matemáticas"
+    "4": {
+      "id": "darth-vader",
+      "name": "Darth Vader",
+      "shortDescription": "Sith Lord and former Jedi",
+      "description": "Darth Vader, once the Jedi Anakin Skywalker, fell to the dark side and served as the enforcer of the Galactic Empire.",
+      "imageUrl": "URL_DE_LA_IMAGEN_GENERADA",
+      "facts": {
+        "occupation": "Sith Lord",
+        "affiliation": "Galactic Empire",
+        "placeOfBirth": "Tatooine",
+        "specie": "Human",
+        "age": "45 years",
+        "height": "2.02 meters"
+      }
     },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/design-an-inspiring-and-historically-accurate-imag/6510df7e7bb745f69d67f695441607a8"
-    }
-  },
-  {
-    "id": "shakuntala-devi",
-    "name": "Shakuntala Devi",
-    "shortDescription": "Matemática prodigio, conocida como la 'Calculadora Humana'.",
-    "description": "Conocida como \"la bruja de las matemáticas\" de la India, dejó una marca indeleble en el mundo de los números. Su capacidad mental asombrosa la llevó a resolver complejos cálculos matemáticos mentalmente en cuestión de segundos, estableciendo récords mundiales. Además de su talento innato, Devi promovió activamente la educación matemática y luchó por la igualdad de género en un país donde las mujeres enfrentaban desafíos en la ciencia y la educación. Su legado destaca el poder de la mente humana y la importancia de la igualdad de oportunidades en la ciencia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/shakuntala-devi.jpg",
-    "facts": {
-      "yearOfBirth": "1929",
-      "yearOfDeath": "2013",
-      "birthPlace": "Bangalore, India",
-      "mainField": "Matemáticas"
+    "5": {
+      "id": "yoda",
+      "name": "Yoda",
+      "shortDescription": "Wise Jedi Master",
+      "description": "Yoda, the ancient Jedi Master from Dagobah, was known for his wisdom and guidance to Jedi knights for centuries.",
+      "imageUrl": "URL_DE_LA_IMAGEN_GENERADA",
+      "facts": {
+        "occupation": "Jedi Master",
+        "affiliation": "Jedi Order",
+        "placeOfBirth": "Dagobah",
+        "specie": "Unknown",
+        "age": "900 years",
+        "height": "0.66 meters"
+      }
     },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/indian-woman-writing-math-problems-in-a-blackbard-/6510e19f3db54e14b365b7e8dc5045f6"
-    }
-  },
-  {
-    "id": "sofia-kovalevskaya",
-    "name": "Sofia Kovalevskaya",
-    "shortDescription": "Matemática y escritora, contribuyó a la teoría de funciones.",
-    "description": "Matemática rusa del siglo XIX, dejó una marca indeleble en la ciencia del siglo XIX al desafiar las barreras de género. Como matemática rusa, superó las restricciones sociales de su época para convertirse en la primera mujer en obtener un doctorado en matemáticas en Europa. Sus contribuciones a la teoría de las ecuaciones diferenciales y la mecánica revolucionaron la disciplina, abriendo nuevas perspectivas en el análisis matemático. Su destacada membresía en la Academia de Ciencias de Suecia marcó un hito en la historia de las mujeres en la ciencia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/sofia-kovalevskaya.jpg",
-    "facts": {
-      "yearOfBirth": "1850",
-      "yearOfDeath": "1891",
-      "birthPlace": "Moscú, Rusia",
-      "mainField": "Matemáticas"
+    "6": {
+      "id": "obi-wan-kenobi",
+      "name": "Obi-Wan Kenobi",
+      "shortDescription": "Jedi Master and mentor",
+      "description": "Obi-Wan Kenobi, a wise Jedi Master, trained Anakin and later mentored Luke Skywalker in the ways of the Force.",
+      "imageUrl": "URL_DE_LA_IMAGEN_GENERADA",
+      "facts": {
+        "occupation": "Jedi Master",
+        "affiliation": "Jedi Order",
+        "placeOfBirth": "Stewjon",
+        "specie": "Human",
+        "age": "57 years",
+        "height": "1.82 meters"
+      }
     },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/indian-woman-writing-math-problems-in-a-blackbard-/6510e19f3db54e14b365b7e8dc5045f6"
-    }
-  },
-  {
-    "id": "yoko-shimomura",
-    "name": "Yoko Shimomura",
-    "shortDescription": "Compositora de música, destacada en la industria de los videojuegos.",
-    "description": "Compositora japonesa, es una figura destacada en la ciencia de la música y el arte sonoro. Aunque no se dedica a la ciencia en el sentido tradicional, su trabajo en la composición musical ha requerido un profundo entendimiento de la teoría musical y la tecnología de audio. Ha contribuido de manera significativa a la industria de los videojuegos, componiendo icónicas bandas sonoras que han enriquecido la experiencia de juego. Su éxito en un campo donde las mujeres estaban subrepresentadas la convierte en un modelo a seguir, incluso en campos no convencionales como la composición musical.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/yoko-shimomura.jpg",
-    "facts": {
-      "yearOfBirth": "1967",
-      "birthPlace": "Hyogo, Japón",
-      "mainField": "Composición Musical, Video Juegos"
+    "7": {
+      "id": "chewbacca",
+      "name": "Chewbacca",
+      "shortDescription": "Loyal Wookiee co-pilot",
+      "description": "Chewbacca, the loyal Wookiee co-pilot of the Millennium Falcon, played a vital role in the Rebel Alliance's victories.",
+      "imageUrl": "URL_DE_LA_IMAGEN_GENERADA",
+      "facts": {
+        "occupation": "Wookiee co-pilot",
+        "affiliation": "Rebel Alliance",
+        "placeOfBirth": "Kashyyyk",
+        "specie": "Wookiee",
+        "age": "200 years",
+        "height": "2.28 meters"
+      }
     },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/yoko-shimomura-making-music-for-a-video-game-in-19/6510e40dd1eb45d0906e8c1f4bb601d3"
-    }
-  },
-  {
-    "id": "maryam-mirzakhani",
-    "name": "Maryam Mirzakhani",
-    "shortDescription": "Matemática, ganadora del Premio Fields.",
-    "description": "Matemática iraní, hizo historia al convertirse en la primera mujer en ganar la Medalla Fields, el premio más prestigioso en matemáticas. Sus investigaciones en la geometría de superficies y la teoría de las superficies de Riemann han tenido un impacto duradero en la matemática pura. A lo largo de su carrera, Mirzakhani inspiró a muchas mujeres a perseguir carreras en ciencia y matemáticas, derribando las barreras de género. Su enfoque innovador y su capacidad para resolver problemas complejos la convierten en un modelo a seguir para la comunidad científica y en un símbolo de la excelencia matemática.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/maryam-mirzakhani.jpg",
-    "facts": {
-      "yearOfBirth": "1977",
-      "yearOfDeath": "2017",
-      "birthPlace": "Teherán, Irán",
-      "mainField": "Matemáticas"
+    "8": {
+      "id": "r2-d2",
+      "name": "R2-D2",
+      "shortDescription": "Resourceful astromech droid",
+      "description": "R2-D2, the resourceful astromech droid, played a critical role in numerous galactic conflicts and missions for the Rebel Alliance.",
+      "imageUrl": "URL_DE_LA_IMAGEN_GENERADA",
+      "facts": {
+        "occupation": "Astromech droid",
+        "affiliation": "Rebel Alliance",
+        "placeOfBirth": "Naboo",
+        "specie": "Astromech droid",
+        "age": "Unknown",
+        "height": "0.96 meters"
+      }
     },
-    "extraInfo": {
-      "imageSource": "https://chalkdustmagazine.com/features/mathematics-maryam-mirzakhani/"
-    }
-  },
-  {
-    "id": "adele-goldberg",
-    "name": "Adele Goldberg",
-    "shortDescription": "Informática pionera, co-creadora del lenguaje de programación Smalltalk.",
-    "description": "Informática estadounidense reconocida por su influyente trabajo en la investigación y desarrollo de la programación orientada a objetos. Su contribución más destacada es la creación del lenguaje de programación Smalltalk, que revolucionó la forma en que se desarrollan software y sistemas informáticos. Goldberg ha sido una defensora incansable de la usabilidad y la accesibilidad en la informática, asegurando que las aplicaciones informáticas sean más amigables para los usuarios. Su trabajo ha allanado el camino para una programación más intuitiva y eficiente, y su legado perdura en la industria de la tecnología.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/adele-goldberg.jpg",
-    "facts": {
-      "yearOfBirth": "1945",
-      "birthPlace": "Chicago, Estados Unidos",
-      "mainField": "Ciencias de la Computación"
+    "9": {
+      "id": "c-3po",
+      "name": "C-3PO",
+      "shortDescription": "Polite protocol droid",
+      "description": "C-3PO, the polite protocol droid fluent in over six million forms of communication, provided invaluable assistance to the Rebel Alliance.",
+      "imageUrl": "URL_DE_LA_IMAGEN_GENERADA",
+      "facts": {
+        "occupation": "Protocol droid",
+        "affiliation": "Rebel Alliance",
+        "placeOfBirth": "Tatooine",
+        "specie": "Protocol droid",
+        "age": "Unknown",
+        "height": "1.71 meters"
+      }
     },
-    "extraInfo": {
-      "imageSource": "https://pionerasinformaticas.ujaen.es/en/computer-women-pioneers/adele-goldberg-en"
-    }
-  },
-  {
-    "id": "barbara-liskov",
-    "name": "Barbara Liskov",
-    "shortDescription": "Científica de la computación, pionera en programación orientada a objetos.",
-    "description": "Pionera de la informática, es conocida por su trabajo en la programación y la arquitectura de sistemas distribuidos. Fue la primera mujer en obtener un doctorado en ciencias de la computación en el Instituto de Tecnología de Stanford y desarrolló el lenguaje de programación CLU, que estableció fundamentos para la programación orientada a objetos. Liskov ha dejado una marca indeleble en la industria de la tecnología al liderar avances en sistemas de almacenamiento y seguridad informática. Su enfoque en la fiabilidad y la robustez ha influido en el diseño de sistemas críticos en todo el mundo.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/barbara-liskov.jpg",
-    "facts": {
-      "yearOfBirth": "1939",
-      "birthPlace": "Los Angeles, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
+    "10": {
+      "id": "lando-calrissian",
+      "name": "Lando Calrissian",
+      "shortDescription": "Smooth-talking city administrator",
+      "description": "Lando Calrissian, the smooth-talking city administrator of Cloud City, joined the Rebel Alliance and became a hero in the fight against the Empire.",
+      "imageUrl": "URL_DE_LA_IMAGEN_GENERADA",
+      "facts": {
+        "occupation": "City administrator",
+        "affiliation": "Rebel Alliance",
+        "placeOfBirth": "Socorro",
+        "specie": "Human",
+        "age": "41 years",
+        "height": "1.78 meters"
+      }
     },
-    "extraInfo": {
-      "imageSource": "https://medium.com/a-computer-of-ones-own/barbara-liskov-inventor-of-abstract-data-types-9f8908fdcf86"
-    }
-  },
-  {
-    "id": "grace-hopper",
-    "name": "Grace Hopper",
-    "shortDescription": "Científica de la computación, creadora del primer compilador.",
-    "description": "Una de las pioneras de la informática, es famosa por su contribución al desarrollo del primer compilador y al lenguaje de programación COBOL. Además, desafió los estereotipos de género en la década de 1940 al unirse a la Marina de los Estados Unidos y convertirse en la primera programadora de la computadora Harvard Mark I. Su legado abarca la creación de conceptos cruciales como la \"depuración de software\" y su influencia en el desarrollo de la informática moderna, estableciendo estándares para la programación de alto nivel y la innovación tecnológica.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/grace-hopper.jpg",
-    "facts": {
-      "yearOfBirth": "1906",
-      "yearOfDeath": "1992",
-      "birthPlace": "Nueva York, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
+    "11": {
+      "id": "emperor-palpatine",
+      "name": "Emperor Palpatine",
+      "shortDescription": "Sith Emperor and Galactic ruler",
+      "description": "Emperor Palpatine, a Sith Lord, manipulated the galaxy's politics and rose to become the ruler of the Galactic Empire.",
+      "imageUrl": "URL_DE_LA_IMAGEN_GENERADA",
+      "facts": {
+        "occupation": "Emperor",
+        "affiliation": "Galactic Empire",
+        "placeOfBirth": "Naboo",
+        "specie": "Human",
+        "age": "88 years",
+        "height": "1.73 meters"
+      }
     },
-    "extraInfo": {
-      "imageSource": "https://photos.com/featured/grace-hopper-with-early-computer-bettmann.html"
-    }
-  },
-  {
-    "id": "margaret-hamilton",
-    "name": "Margaret Hamilton",
-    "shortDescription": "Científica de la computación, lideró desarrollo de software para Apollo 11.",
-    "description": "Destacada científica de la computación que desempeñó un papel fundamental en el programa Apollo de la NASA. Fue directora de la División de Ingeniería de Software en el Laboratorio de Instrumentación del MIT, donde desarrolló el concepto de \"ingeniería de software\". Su liderazgo en el desarrollo del software de vuelo para las misiones Apollo fue fundamental para el éxito de la llegada del hombre a la Luna. Hamilton es un ejemplo de cómo la tecnología y la ciencia pueden alcanzar logros extraordinarios cuando se combinan con un enfoque innovador y una visión audaz.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/margaret-hamilton.jpg",
-    "facts": {
-      "yearOfBirth": "1936",
-      "birthPlace": "Paoli, Indiana, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
+    "12": {
+      "id": "darth-maul",
+      "name": "Darth Maul",
+      "shortDescription": "Darth Maul",
+      "description": "Darth Maul, a deadly Sith Lord, wielded a double-bladed lightsaber and sought to exact revenge on the Jedi Order.",
+      "imageUrl": "URL_DE_LA_IMAGEN_GENERADA",
+      "facts": {
+        "occupation": "Sith Lord",
+        "affiliation": "Sith",
+        "placeOfBirth": "Dathomir",
+        "specie": "Dathomirian (Zabrak)",
+        "age": "30 years",
+        "height": "1.75 meters"
+      }
     },
-    "extraInfo": {
-      "imageSource": "https://odetta.ai/blogs/margaret-hamilton-the-first-software-engineer"
-    }
-  },
-  {
-    "id": "radia-perlman",
-    "name": "Radia Perlman",
-    "shortDescription": "Ingeniera de redes, inventora del algoritmo Spanning Tree.",
-    "description": "Científica de la computación estadounidense, ha dejado una marca indeleble en el mundo de las redes informáticas y la seguridad. Conocida como \"la madre de Internet\", su invención del algoritmo Spanning Tree Protocol (STP) revolucionó la conectividad de redes y sentó las bases para la infraestructura de Internet moderna. A pesar de operar en un campo dominado por hombres, Perlman ha demostrado que las mujeres pueden liderar avances tecnológicos vitales. Su compromiso con la resiliencia de las redes y la ciberseguridad ha influido en la estabilidad y confiabilidad de la comunicación en línea.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/radia-perlman.jpg",
-    "facts": {
-      "yearOfBirth": "1951",
-      "birthPlace": "Portsmouth, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
+    "13": {
+      "id": "padme-amidala",
+      "name": "Padmé Amidala",
+      "shortDescription": "Queen and Senator",
+      "description": "Padmé Amidala, a skilled diplomat, served as the queen of Naboo and later as a senator in the Galactic Republic.",
+      "imageUrl": "URL_DE_LA_IMAGEN_GENERADA",
+      "facts": {
+        "occupation": "Queen and Senator",
+        "affiliation": "Rebel Alliance",
+        "placeOfBirth": "Naboo",
+        "specie": "Human",
+        "age": "24 years",
+        "height": "1.65 meters"
+      }
     },
-    "extraInfo": {
-      "imageSource": "https://hackaday.com/2018/05/29/spanning-the-tree-dr-radia-perlman-untangling-networks/"
-    }
-  },
-  {
-    "id": "shafi-goldwasser",
-    "name": "Shafi Goldwasser",
-    "shortDescription": "Científica de la computación, ganadora del Premio Turing.",
-    "description": "Es una destacada criptógrafa y científica de la computación que ha contribuido significativamente a la teoría de la computación y la seguridad de la información. Su trabajo en criptografía de probabilidad y complejidad computacional ha sentado las bases para la seguridad en línea y la privacidad de datos en un mundo cada vez más digitalizado. Goldwasser es un ejemplo de cómo la ciencia de la computación puede abordar desafíos contemporáneos y proteger la información en la era de la información.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/shafi-goldwasser.jpg",
-    "facts": {
-      "yearOfBirth": "1958",
-      "birthPlace": "Nueva York, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
+    "14": {
+      "id": "mace-windu",
+      "name": "Mace Windu",
+      "shortDescription": "Respected Jedi Master",
+      "description": "Mace Windu, a highly respected Jedi Master, was a key figure in the Jedi Order and a fierce defender of the Republic.",
+      "imageUrl": "URL_DE_LA_IMAGEN_GENERADA",
+      "facts": {
+        "occupation": "Jedi Master",
+        "affiliation": "Jedi Order",
+        "placeOfBirth": "Haruun Kal",
+        "specie": "Human",
+        "age": "53 years",
+        "height": "1.92 meters"
+      }
     },
-    "extraInfo": {
-      "imageSource": "https://www.jahresbericht2019.unibe.ch/successes_2019/einstein_lectures/index_eng.html"
-    }
-  },
-  {
-    "id": "chien-shiung-wu",
-    "name": "Chien-Shiung Wu",
-    "shortDescription": "Física experimental, contribuyó a la física nuclear.",
-    "description": "Física experimental de origen chino, desafiando los prejuicios de género y nacionalidad, realizó experimentos fundamentales en física de partículas y contribuyó significativamente a la comprensión de la desintegración beta. Su famoso experimento \"Wu\" refutó la paridad en la física de partículas, lo que cambió la forma en que los científicos comprenden las fuerzas fundamentales de la naturaleza. Wu demostró que el talento y la perseverancia pueden superar cualquier barrera, y su legado sigue siendo un faro de inspiración para científicas en todo el mundo.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/chien-shiung-wu.jpg",
-    "facts": {
-      "yearOfBirth": "1912",
-      "yearOfDeath": "1997",
-      "birthPlace": "Liuhe, Taicang, China",
-      "mainField": "Física"
+    "15": {
+      "id": "rey",
+      "name": "Rey",
+      "shortDescription": "Jedi-in-training",
+      "description": "Rey, a young scavenger from Jakku, discovered her Force sensitivity and became a Jedi under the guidance of General Leia Organa.",
+      "imageUrl": "URL_DE_LA_IMAGEN_GENERADA",
+      "facts": {
+        "occupation": "Jedi",
+        "affiliation": "Rebel Alliance",
+        "placeOfBirth": "Jakku",
+        "specie": "Human",
+        "age": "19 years",
+        "height": "1.70 meters"
+      }
     },
-    "extraInfo": {
-      "imageSource": "https://www.thoughtco.com/chien-shiung-wu-biography-3530366"
-    }
-  },
-  {
-    "id": "hedy-lamarr",
-    "name": "Hedy Lamarr",
-    "shortDescription": "Actriz e inventora, contribuyó al desarrollo de la tecnología de espectro ensanchado.",
-    "description": "Actriz austroamericana y científica, fue una mente brillante en la intersección de la tecnología y el entretenimiento. Junto con el compositor George Antheil, inventó un sistema de comunicación secreta durante la Segunda Guerra Mundial que sentó las bases para la tecnología de espectro ensanchado y la comunicación inalámbrica moderna. Lamarr demostró que las mujeres pueden destacar tanto en el cine como en la ciencia, y su legado como inventora ha sido fundamental para el desarrollo de la tecnología de comunicación inalámbrica que usamos en la actualidad.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/hedy-lamarr.jpg",
-    "facts": {
-      "yearOfBirth": "1914",
-      "yearOfDeath": "2000",
-      "birthPlace": "Viena, Austria",
-      "mainField": "Actuación, Física"
+    "16": {
+      "id": "kylo-ren",
+      "name": "Kylo Ren",
+      "shortDescription": "Leader of the Knights of Ren",
+      "description": "Kylo Ren, formerly Ben Solo, fell to the dark side and became the leader of the Knights of Ren within the First Order.",
+      "imageUrl": "URL_DE_LA_IMAGEN_GENERADA",
+      "facts": {
+        "occupation": "Leader of the Knights of Ren",
+        "affiliation": "First Order",
+        "placeOfBirth": "Chandrila",
+        "specie": "Human",
+        "age": "29 years",
+        "height": "1.89 meters"
+      }
     },
-    "extraInfo": {
-      "imageSource": "https://www.sparkfun.com/news/6147"
-    }
-  },
-  {
-    "id": "maria-goeppert-mayer",
-    "name": "Maria Goeppert Mayer",
-    "shortDescription": "Física teórica, ganadora del Premio Nobel de Física.",
-    "description": "Física teórica alemana-estadounidense, dejó una profunda huella en la física nuclear y la mecánica cuántica. Fue la segunda mujer en recibir el Premio Nobel de Física y su trabajo pionero en la estructura de capas nucleares revolucionó nuestra comprensión de los núcleos atómicos. A pesar de las barreras de género en la academia, su dedicación y talento la llevaron a contribuir significativamente a la teoría nuclear, abriendo el camino para futuras investigadoras en un campo dominado por hombres. Maria Goeppert Mayer es un ejemplo inspirador de excelencia científica y perseverancia en la búsqueda del conocimiento.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/maria-goeppert-mayer.jpg",
-    "facts": {
-      "yearOfBirth": "1906",
-      "yearOfDeath": "1972",
-      "birthPlace": "Kattowitz, Alemania",
-      "mainField": "Física"
+    "17": {
+      "id": "finn",
+      "name": "Finn",
+      "shortDescription": "Former stormtrooper turned hero",
+      "description": "Finn, a former stormtrooper FN-2187, defected from the First Order and joined the Rebel Alliance as a hero of the Resistance.",
+      "imageUrl": "URL_DE_LA_IMAGEN_GENERADA",
+      "facts": {
+        "occupation": "Hero of the Resistance",
+        "affiliation": "Rebel Alliance",
+        "placeOfBirth": "Unknown",
+        "specie": "Human",
+        "age": "23 years",
+        "height": "1.78 meters"
+      }
     },
-    "extraInfo": {
-      "imageSource": "https://www.wsemexhibit.org/maria-goeppert-mayer.html"
-    }
-  },
-  {
-    "id": "lise-meitner",
-    "name": "Lise Meitner",
-    "shortDescription": "Física nuclear, contribuyó a la teoría de la fisión nuclear.",
-    "description": "Física austriaca-sueca, dejó un legado imborrable en la física nuclear y la radioquímica. A pesar de enfrentar obstáculos de género en una era dominada por hombres, colaboró con Otto Hahn en el descubrimiento de la fisión nuclear, un avance revolucionario. Aunque no compartió el Premio Nobel por este logro, su contribución fue crucial para comprender la energía nuclear y la física de partículas. Su determinación y pasión por la ciencia han inspirado a generaciones de científicas. Lise Meitner es un símbolo perdurable de la perseverancia femenina y el impacto duradero que las mujeres pueden tener en la ciencia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/lise-meitner.jpg",
-    "facts": {
-      "yearOfBirth": "1878",
-      "yearOfDeath": "1968",
-      "birthPlace": "Viena, Austria",
-      "mainField": "Física"
+    "18": {
+      "id": "ahsoka-tano",
+      "name": "Ahsoka Tano",
+      "shortDescription": "Skilled Togruta Jedi",
+      "description": "Ahsoka Tano, a skilled Togruta Jedi, played a vital role in the Clone Wars and later became a key figure in the Rebel Alliance.",
+      "imageUrl": "URL_DE_LA_IMAGEN_GENERADA",
+      "facts": {
+        "occupation": "Jedi",
+        "affiliation": "Jedi Order",
+        "placeOfBirth": "Shili",
+        "specie": "Togruta",
+        "age": "32 years",
+        "height": "1.70 meters"
+      }
     },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/lise-meitner-in-nuclear-physics-lab-in-19502c-retro/651196e6bbcb4009950e9955c2199760"
-    }
-  },
-  {
-    "id": "sau-lan-wu",
-    "name": "Sau Lan Wu",
-    "shortDescription": "Física de partículas, contribuyó a experimentos clave en física de alta energía.",
-    "description": "Física experimental sinoamericana, ha sido una fuerza motriz en la física de partículas. Destacó en experimentos en el CERN y lideró investigaciones cruciales, como el descubrimiento del quark c, que expandieron nuestro entendimiento de la estructura fundamental de la materia. Wu superó desafíos en una disciplina dominada por hombres y ha sido un faro de inspiración para científicas de todo el mundo. Sau Lan Wu es un ejemplo de excelencia científica y de cómo las mujeres pueden dejar huella en la investigación de vanguardia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/sau-lan-wu.jpg",
-    "facts": {
-      "yearOfBirth": "1940",
-      "birthPlace": "Hong Kong, China",
-      "mainField": "Física de Partículas"
+    "19": {
+      "id": "boba-fett",
+      "name": "Boba Fett",
+      "shortDescription": "Notorious bounty hunter",
+      "description": "Boba Fett, a notorious bounty hunter, was known for his formidable skills and ruthless pursuit of his targets.",
+      "imageUrl": "URL_DE_LA_IMAGEN_GENERADA",
+      "facts": {
+        "occupation": "Bounty hunter",
+        "affiliation": "Neutral",
+        "placeOfBirth": "Kamino",
+        "specie": "Human (clone)",
+        "age": "33 years",
+        "height": "1.83 meters"
+      }
     },
-    "extraInfo": {
-      "imageSource": "https://repository.aip.org/islandora/object/nbla%3A315195"
-    }
-  },
-  {
-    "id": "jocelyn-bell-burnell",
-    "name": "Jocelyn Bell Burnell",
-    "shortDescription": "Astrónoma y astrofísica, co-descubridora de los púlsares.",
-    "description": "Astrofísica británica, es una figura extraordinaria en la ciencia. Durante su doctorado, hizo un descubrimiento revolucionario al detectar los primeros púlsares, estrellas de neutrones altamente magnetizadas que emiten pulsos regulares de radiación. A pesar de que su asesor recibió el Premio Nobel por este descubrimiento, Bell Burnell se ha convertido en un símbolo de perseverancia y contribución de las mujeres a la astronomía. Su carrera distinguida y su activismo en favor de la diversidad de género en la ciencia han inspirado a generaciones futuras de científicas. Jocelyn Bell Burnell es un ejemplo de valentía y excelencia científica.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/jocelyn-bell-burnell.jpg",
-    "facts": {
-      "yearOfBirth": "1943",
-      "birthPlace": "Belfast, Reino Unido",
-      "mainField": "Astronomía, Astrofísica"
+    "20": {
+      "id": "jango-fett",
+      "name": "Jango Fett",
+      "shortDescription": "Bounty hunter and clone template",
+      "description": "Jango Fett, a skilled bounty hunter and the genetic template for the clone army, was a formidable figure in the galaxy.",
+      "imageUrl": "URL_DE_LA_IMAGEN_GENERADA",
+      "facts": {
+        "occupation": "Bounty hunter",
+        "affiliation": "Neutral",
+        "placeOfBirth": "Concord Dawn",
+        "specie": "Human",
+        "age": "36 years",
+        "height": "1.83 meters"
+      }
     },
-    "extraInfo": {
-      "imageSource": "https://womeninscienceweadmire.icfo.eu/wiswa-2/jocelyn-bell/"
-    }
-  },
-  {
-    "id": "dorothy-crowfoot-hodgkin",
-    "name": "Dorothy Crowfoot Hodgkin",
-    "shortDescription": "Química, ganadora del Premio Nobel de Química.",
-    "description": "Química británica, es una figura icónica en la ciencia que superó las barreras de género de su época. Su trabajo revolucionario en la cristalografía de rayos X permitió determinar la estructura de importantes biomoléculas, como la penicilina, la vitamina B12 y la insulina. Fue galardonada con el Premio Nobel de Química en 1964, siendo la tercera mujer en recibir este prestigioso reconocimiento. Hodgkin no solo fue una científica excepcional, sino también una defensora de la igualdad de género en la ciencia, allanando el camino para futuras generaciones de científicas y dejando un legado duradero en la investigación y la equidad.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/dorothy-crowfoot-hodgkin.jpg",
-    "facts": {
-      "yearOfBirth": "1910",
-      "yearOfDeath": "1994",
-      "birthPlace": "El Cairo, Egipto / Shipston-on-Stour, Reino Unido",
-      "mainField": "Química"
+    "21": {
+      "id": "aayla-secura",
+      "name": "Aayla Secura",
+      "shortDescription": "Skilled Twi'lek Jedi",
+      "description": "Aayla Secura, a skilled Twi'lek Jedi, served the Jedi Order during the Clone Wars and was known for her proficiency with a lightsaber.",
+      "imageUrl": "URL_DE_LA_IMAGEN_GENERADA",
+      "facts": {
+        "occupation": "Jedi",
+        "affiliation": "Jedi Order",
+        "placeOfBirth": "Ryloth",
+        "specie": "Twi'lek",
+        "age": "27 years",
+        "height": "1.73 meters"
+      }
     },
-    "extraInfo": {
-      "imageSource": "https://www.some.ox.ac.uk/news/jan-royall-why-we-must-champion-dorothy-hodgkin-for-the-50-note/"
-    }
-  },
-  {
-    "id": "marie-curie",
-    "name": "Marie Curie",
-    "shortDescription": "Física y química, ganadora de dos Premios Nobel.",
-    "description": "física y química de origen polaco y nacionalizada francesa, es una de las figuras más icónicas en la historia de la ciencia. Ganadora de dos premios Nobel (Física en 1903 y Química en 1911), Curie realizó investigaciones fundamentales sobre la radiactividad y el descubrimiento de los elementos radio y polonio. Su dedicación y valentía en la investigación científica, a pesar de los desafíos de la discriminación de género y los riesgos de la radiación, la convierten en un modelo a seguir para científicas de todo el mundo.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/marie-curie.jpg",
-    "facts": {
-      "yearOfBirth": "1867",
-      "yearOfDeath": "1934",
-      "birthPlace": "Varsovia, Polonia",
-      "mainField": "Física y Química"
+    "22": {
+      "id": "count-dooku",
+      "name": "Count Dooku",
+      "shortDescription": "Sith Lord and Separatist leader",
+      "description": "Count Dooku, a former Jedi Master, became a powerful Sith Lord and leader of the Separatist movement in the Clone Wars.",
+      "imageUrl": "URL_DE_LA_IMAGEN_GENERADA",
+      "facts": {
+        "occupation": "Sith Lord",
+        "affiliation": "Separatists",
+        "placeOfBirth": "Serenno",
+        "specie": "Human",
+        "age": "93 years",
+        "height": "1.93 meters"
+      }
     },
-    "extraInfo": {
-      "imageSource": "https://www.historyextra.com/period/first-world-war/life-of-the-week-marie-curie/"
-    }
-  },
-  {
-    "id": "marjory-stephenson",
-    "name": "Marjory Stephenson",
-    "shortDescription": "Microbióloga y bioquímica, investigó en enzimología.",
-    "description": "Bioquímica británica, brilló como científica en una época en la que las mujeres enfrentaban obstáculos muy significativos en la investigación científica. Su trabajo pionero en microbiología, enzimología y bioquímica contribuyó al entendimiento de procesos fundamentales en la vida. Fue una de las primeras mujeres en ser elegida miembro de la Royal Society, un reconocimiento a su destacada contribución a la ciencia. Además, fue una mentora y defensora de las mujeres en la ciencia, inspirando y allanando el camino para futuras generaciones.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/marjory-stephenson.jpg",
-    "facts": {
-      "yearOfBirth": "1885",
-      "yearOfDeath": "1948",
-      "birthPlace": "Londres, Reino Unido",
-      "mainField": "Química, Microbiología, Bioquímica"
+    "23": {
+      "id": "admiral-ackbar",
+      "name": "Admiral Ackbar",
+      "shortDescription": "Respected Mon Calamari leader",
+      "description": "Admiral Ackbar, a respected Mon Calamari leader, played a key role in the Rebel Alliance's naval operations and strategies.",
+      "imageUrl": "URL_DE_LA_IMAGEN_GENERADA",
+      "facts": {
+        "occupation": "Admiral",
+        "affiliation": "Rebel Alliance",
+        "placeOfBirth": "Mon Cala",
+        "specie": "Mon Calamari",
+        "age": "62 years",
+        "height": "1.71 meters"
+      }
     },
-    "extraInfo": {
-      "imageSource": "https://microbiologysociety.org/grants-prizes/all-prizes-and-competitions-/prize-lectures/marjory-stephenson-prize-lecture/marjory-stephenson-a-short-history.html"
-    }
-  },
-  {
-    "id": "rosalind-franklin",
-    "name": "Rosalind Franklin",
-    "shortDescription": "Química y cristalógrafa, contribuyó a la comprensión de la estructura del ADN.",
-    "description": "Química y cristalógrafa británica, destacó en un campo dominado por hombres y su contribución a la ciencia es innegable. Sus investigaciones pioneras en la cristalografía de rayos X fueron fundamentales para revelar la estructura del ADN en forma de doble hélice, un hito crucial en la biología molecular. A pesar de que su trabajo inicial fue subestimado, su determinación y habilidad científica allanaron el camino para futuros avances en genética y biología. Franklin es un ejemplo inspirador de cómo las mujeres pueden sobresalir en la ciencia, dejando un legado duradero en la investigación y la igualdad de género.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/rosalind-franklin.jpg",
-    "facts": {
-      "yearOfBirth": "1920",
-      "yearOfDeath": "1958",
-      "birthPlace": "Londres, Reino Unido",
-      "mainField": "Química, Cristalografía"
+    "24": {
+      "id": "hera-syndulla",
+      "name": "Hera Syndulla",
+      "shortDescription": "Leader of the Ghost crew",
+      "description": "Hera Syndulla, a Twi'lek, was a skilled pilot and the leader of the Ghost crew, which carried out missions for the Rebel Alliance.",
+      "imageUrl": "URL_DE_LA_IMAGEN_GENERADA",
+      "facts": {
+        "occupation": "Leader of the Ghost crew",
+        "affiliation": "Rebel Alliance",
+        "placeOfBirth": "Ryloth",
+        "specie": "Twi'lek",
+        "age": "33 years",
+        "height": "1.70 meters"
+      }
     },
-    "extraInfo": {
-      "imageSource": "https://www.esa.int/ESA_Multimedia/Images/2020/07/Artistic_illustration_of_Rosalind_Franklin"
-    }
+    "25": {
+      "id": "grand-moff-tarkin",
+      "name": "Grand Moff Tarkin",
+      "shortDescription": "Imperial Officer",
+      "description": "Grand Moff Tarkin, a high-ranking Imperial officer, was known for his ruthless leadership and the construction of the Death Star.",
+      "imageUrl": "URL_DE_LA_IMAGEN_GENERADA",
+      "facts": {
+        "occupation": "Imperial Officer",
+        "affiliation": "Galactic Empire",
+        "placeOfBirth": "Eriadu",
+        "specie": "Human",
+        "age": "64 years",
+        "height": "1.82 meters"
+      }
+    },
+    "26": {
+      "id": "din-djarin",
+      "name": "Din Djarin (The Mandalorian)",
+      "shortDescription": "Bounty Hunter and Protector",
+      "description": "Din Djarin, known as The Mandalorian, is a skilled bounty hunter and protector of the Child (Grogu) in the outer reaches of the galaxy.",
+      "imageUrl": "URL_DE_LA_IMAGEN_GENERADA",
+      "facts": {
+        "occupation": "Bounty Hunter and Protector",
+        "affiliation": "Independent/Mandalorian",
+        "placeOfBirth": "Mandalore",
+        "specie": "Human",
+        "age": "38 years",
+        "height": "1.83 meters"
+      }
+    }  
   }
 ];
