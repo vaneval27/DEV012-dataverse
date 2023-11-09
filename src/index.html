@@ -2,10 +2,48 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Data Lovers</title>
+    <title>Star Wars</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="https://www.pngkey.com/png/full/626-6268258_calling-him-scruffy-looking-but-through-a-gutsy.png" sizes="40px" />
   </head>
   <body>
+    <header>
+      <h1>STAR WARS</h1>
+      <h3>Explore the details of your favorite characters</h3>
+      <h2>May the Force be with you</h2>
+    </header>
+    <main>
+      <section>
+        <nav>
+          <label for="menu">☰</label>
+          <div>
+            <label for="affiliation">Filter:</label>
+            <select id="affiliation" name="affiliation" data-testid="select-filterAffiliation">
+              <option disabled selected="">• Select Affiliation •</option>
+              <option value="Rebel Alliance">Rebel Alliance</option>
+              <option value="Galactic Empire">Galactic Empire</option>
+              <option value="Jedi Order">Jedi Order</option>
+              <option value="Sith">Sith</option>
+              <option value="Independent/Mandalorian">Independent/Mandalorian</option>
+              <option value="Separatists">Separatists</option>
+              <option value="Neutral">Neutral</option>
+            </select>
+
+            <label for="sortAZ">Sort:</label>
+            <select id="sortAZ" name="sortAZ" data-testid="select-sort">
+              <option disabled selected="">• Select Order •</option>
+              <option value="asc">A-Z</option>
+              <option value="desc">Z-A</option>
+            </select>
+            <button id="clearBtn" data-testid="button-clear">Clear</button>
+          </div>
+        </nav>        
+      </section>
+      <div>
+        <section id="root" class="cardsContainer"></section>
+      </div>    
+    </main>
+    <footer>Dev. Vane</footer>
     <script src="main.js" type="module"></script>
   </body>
 </html>

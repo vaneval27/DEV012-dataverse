@@ -1,0 +1,25 @@
+*{
+
+}
+
+header{
+    font-style: normal;
+    line-height: n;
+    width: 100%;
+    height: 20vh;
+    background:url()
+    background-size: 506px 234px;
+    background-color: #090909;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center
+}
+
+body{
+    /*background-image: url(https://cdn.wallpapersafari.com/38/0/tNfnSd.png);
+}
+
+h1{
+    color: yellow;
+}   
