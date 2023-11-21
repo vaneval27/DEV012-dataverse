@@ -2,20 +2,22 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Star Wars</title>
+    <title>Warsie Page</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="icon" href="https://www.pngkey.com/png/full/626-6268258_calling-him-scruffy-looking-but-through-a-gutsy.png" sizes="40px" />
   </head>
   <body>
     <header>
-      <h1>STAR WARS</h1>
-      <h3>Explore the details of your favorite characters</h3>
+      <h1> w a r s i e p e d i a </h1>
       <h2>May the Force be with you</h2>
     </header>
+    <p><h3>Explore the details of your favorite characters</h3></p>
     <main>
-      <section>
-        <nav>
-          <label for="menu">☰</label>
+      <div class="statistic">
+        <p id="stats"></p>        
+      </div>
+      <section class="navBar">
+        <nav id="naviBar">
           <div>
             <label for="affiliation">Filter:</label>
             <select id="affiliation" name="affiliation" data-testid="select-filterAffiliation">
@@ -34,13 +36,17 @@
               <option disabled selected="">• Select Order •</option>
               <option value="asc">A-Z</option>
               <option value="desc">Z-A</option>
+              <option value="ascAge">Edad ascendente</option>
+              <option value="descAge">Edad descendente</option>
+              <option value="ascHeight">Estatura ascendente</option>
+              <option value="descHeight">Estatura descendente</option>
             </select>
             <button id="clearBtn" data-testid="button-clear">Clear</button>
           </div>
         </nav>        
       </section>
-      <div>
-        <section id="root" class="cardsContainer"></section>
+      <div class="cardsContainer">
+        <section id="root"></section>
       </div>    
     </main>
     <footer>Dev. Vane</footer>
