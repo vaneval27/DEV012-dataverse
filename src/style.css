@@ -11,11 +11,11 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 5%;
+  margin-top: 2%;
   background-color: black;
   background-image: url(images/header.png);
   background-repeat: no-repeat;
-  background-size: 980px 170px;
+  background-size: 100%;
   font-size: large;
   font-family: "Star Jedi";
   width: 100%;
@@ -48,12 +48,99 @@ h3 {
   font-size: medium;
 }
 
+.statistic {
+  display: flex;
+  justify-content:center;
+  margin-top: 15;
+  background-color: #f2eee9;
+}
+
 .navBar {
   margin-top: 3%;
   display: flex;
   justify-content: space-evenly;
   align-content: space-around;
+}
 
+#naviBar {
+  font-family: 'jura';
+  color: #f0f0f0;
+  
+}
+
+#affiliation {
+	max-width: 250px;
+	position: relative;
+}
+
+#affiliation {
+	display: inline-block;
+	width: 35%;
+	cursor: pointer;
+  	padding: 7px 10px;
+  	height: 42px;
+  	outline: 0; 
+  	border: 0;
+	border-radius: 0;
+	background: #f8f6f6;
+	color: #faf5f5;
+	font-size: 1em;
+	color: #070707;
+	font-family: 'jura';
+	border:2px solid rgba(0,0,0,0.2);
+    border-radius: 12px;
+    position: relative;
+    transition: all 0.25s ease;
+}
+
+#affiliation:hover{
+	text-shadow: 0 0 20px rgb(212, 168, 213);
+}
+
+#sortAZ {
+	max-width: 250px;
+	position: relative;
+}
+
+#sortAZ {
+	display: inline-block;
+	width: 30%;
+  transition: 0.3s;
+	cursor: pointer;
+  	padding: 7px 10px;
+  	height: 42px;
+  	outline: 0; 
+  	border: 0;
+	border-radius: 0;
+	background: #f0f0f0;
+	color: #1a1919;
+	font-size: 1em;
+	color: #060606;
+	font-family: 'jura';
+	border:2px solid rgba(0,0,0,0.2);
+    border-radius: 12px;
+    position: relative;
+}
+
+#sortAZ:hover{
+	text-shadow: 0 0 20px rgb(212, 168, 213);
+}
+
+#clearBtn {
+  padding: 10px 20px;
+  background-color: #bbcbea;
+  color: rgb(12, 12, 12);
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#clearBtn:hover {
+  box-shadow: 0 0 10px rgb(212, 168, 213);
+}
+
+#clearBtn:active {
+  background-color: #a4caa5;
 }
 
 .cardsContainer {
@@ -66,24 +153,29 @@ h3 {
 }
 
 #root {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-content: stretch;
-    justify-content: space-around;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: stretch;
+  justify-content: space-around;
 }
 
 .cards {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-content: center;
   background-color: #f2eee9;
   background-image: url(https://www.creativefabrica.com/wp-content/uploads/2023/05/01/Rich-Galaxy-Background-Ultra-HD-Detail-Black-And-White-Colors-68559297-1-580x1031.png);
-  width: 400px;
+  width: 300px;
   border-radius: 10px;
   overflow: hidden;
   margin: 20px;
-  box-shadow: 0px 2px 4px rgba(251, 251, 251, 0.911);
+  transition: 0.3s;
+}
+
+.cards:hover {
+  box-shadow: 0 0 20px rgb(212, 168, 213);
+  transform: scale(1.1);
 }
 
 strong {
@@ -118,12 +210,22 @@ dd {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: center;
 
 }
 
-@media only screen and (max-width: 768px) {¨
-
+@media only screen and (max-width: 768px) {
   .cards {
-    width: 10vh;
+    width: 40vh;
   }
 }
+
+footer {
+  display: flex;
+  color: #f2eee9;
+  letter-spacing: 3px;
+  font-family: 'jura';
+  justify-content: center;
+}
+
+

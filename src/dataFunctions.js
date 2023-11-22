@@ -1,11 +1,12 @@
-//import dataset from "./data/dataset";
-
 // Función para filtrar por Afiliación
-export function filterAfilliation (dataset) {
+export function filterAffiliation(dataset, selectedAffiliation) {
+  if (!selectedAffiliation) {
+    return dataset; // Si no se ha seleccionado una afiliación, devuelve toda la data sin cambios
+  }
 
-  return 'example';
-};
-
+  const filteredData = dataset.filter(item => item.facts.affiliation === selectedAffiliation);
+  return filteredData;
+}
 // Función para ordenar asc y desc A-Z / Edad / Estatura
 export function sortData(data, sortBy) {
   const sortedData = [...data];
@@ -14,14 +15,6 @@ export function sortData(data, sortBy) {
     sortedData.sort((a, b) => a.name.localeCompare(b.name));
   } else if (sortBy === "desc") {
     sortedData.sort((a, b) => b.name.localeCompare(a.name));
-  } else if (sortBy === "ascAge") {
-    sortedData.sort((a, b) => a.facts.age - b.facts.age);
-  } else if (sortBy === "descAge") {
-    sortedData.sort((a, b) => b.facts.age - a.facts.age);
-  } else if (sortBy === "ascHeight") {
-    sortedData.sort((a, b) => a.facts.height - b.facts.height);
-  } else if (sortBy === "descHeight") {
-    sortedData.sort((a, b) => b.facts.height - a.facts.height);
   } else {
     sortedData.sort((a, b) => a.name.localeCompare(b.name));
   }
@@ -30,6 +23,9 @@ export function sortData(data, sortBy) {
 }
 
 // Función estadística para la cantidad de resultados filtrados
-export const statsFilter = () => {
-  return 
+export const statsFilter = (filteredData) => {
+  return filteredData.map(item => item.name).reduce((count, name) => {
+    count[name] = (count[name] || 0) + 1;
+    return count;
+  }, {});
 };
