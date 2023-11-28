@@ -1,83 +1,86 @@
-import { sortData } from './dataFunctions.js';
-import { filterAffiliation } from './dataFunctions.js';
 import { renderItems } from './view.js';
 import data from './data/dataset.js';
+import { filterAffiliation } from './dataFunctions.js';
+import { sortData } from './dataFunctions.js';
+import { computeStats } from './dataFunctions.js';
 
-// render cards
+// Section: Render cards
 const cardsContainer = document.getElementById("root")
 cardsContainer.appendChild(renderItems(data));
 
-
-
-// For filter
+// Section: Filter
 const optionFilter = document.querySelector('[name="affiliation"]');
-const clearButton = document.getElementById("clearBtn"); // Agregamos la referencia al botón "Clear"
+const clearButton = document.querySelector("#clearBtn"); 
 let selectedAffiliation = "";
 
-// Función para limpiar el filtro (mover a dataFunctions.js)
-const clearFilter = () => {
-  selectedAffiliation = ""; 
-  cardsContainer.innerHTML = "";
-  cardsContainer.appendChild(renderItems(data));
-  
-  const statsElement = document.getElementById("stats");
-  statsElement.textContent = "Filtered Results: ";
-};
-
-optionFilter.addEventListener("change", function (event) {
-  selectedAffiliation = event.target.value;
-
+// Function to update the filter
+const updateFilter = () => {
+  // Filter the data and re-render the cards
   const filteredData = filterAffiliation(data, selectedAffiliation);
   
   cardsContainer.innerHTML = "";
   cardsContainer.appendChild(renderItems(filteredData));
 
-  const statsElement = document.getElementById("stats");
-  const statsResult = statsFilter(filteredData);
+  // Update the statistic of filtered results
+  const statsElement = document.querySelector("#statsFilter");
+  const statsResult = computeStats(filteredData);
   
-  let statsText = "Filtered Results: ";
-  for (const name in statsResult) {
-    statsText += `${name}: ${statsResult[name]}, `;
-  }
-  
-  statsText = statsText.slice(0, -2);
+  const totalCount = Object.values(statsResult).reduce((total, count) => total + count, 0);
 
-  statsElement.textContent = statsText;
+  // Set the content of the HTML element
+  statsElement.innerHTML = `Total characters: ${totalCount}`;
+};
+
+// Event for a change in the filter
+optionFilter.addEventListener("change", (event) => {
+  selectedAffiliation = event.target.value;
+  updateFilter();
 });
 
-// For clear button
-clearButton.addEventListener("click", clearFilter);
+// Section: Clear filter button
+clearButton.addEventListener("click", () => {
+  selectedAffiliation = "";
 
+  // Reset value for filter
+  optionFilter.value = "• Select Affiliation •";
+  updateFilter();
 
-// For sort
+  // Reset value for sort
+  optionSort.value = "• Select Order •";
+  sortBy = ""; // Reset the sorting option
+  const sortedData = sortData(data, sortBy);
+
+  cardsContainer.innerHTML = "";
+  cardsContainer.appendChild(renderItems(sortedData));
+});
+//// Section: Sorting
 const optionSort = document.querySelector('[name="sortAZ"]');
 let sortBy = "";
 
+// Event for a change in the sort option
 optionSort.addEventListener("change", function (event) {
   sortBy = event.target.value;
 
-  
-  const sortedData = sortData(data, sortBy);
- 
+  // Sort the filtered data if it exists, otherwise sort the original data
+  const dataToSort = selectedAffiliation ? filterAffiliation(data, selectedAffiliation) : data;
+  const sortedData = sortData(dataToSort, sortBy);
+
   cardsContainer.innerHTML = "";
   cardsContainer.appendChild(renderItems(sortedData));
 });
 
-//For statsFilter
-const statsElement = document.getElementById("stats");
-const statsResult = statsFilter(filteredData);
+//// Section: Statistics
+const statsElement = document.querySelector("#statsFilter");
+const filteredData = filterAffiliation(data, selectedAffiliation); // Make sure filteredData is defined
+const statsResult = computeStats(filteredData);
 
+// Get the total number of characters
+const totalCount = Object.values(statsResult).reduce((total, count) => total + count, 0);
 
-let statsText = "Filtered Results: ";
-for (const name in statsResult) {
-  statsText += `${name}: ${statsResult[name]}, `;
-}
+// Set the content of the HTML element
+statsElement.innerHTML = "Total characters: " + totalCount;
 
-statsText = statsText.slice(0, -2);
-
-statsElement.textContent = statsText;
-
-// For clear button
-clearButton.addEventListener("click", clearFilter);
+// Section: Event for clearing the filter
+clearButton.addEventListener("click", updateFilter);
 
 //console.log(example, renderItems(data), data);

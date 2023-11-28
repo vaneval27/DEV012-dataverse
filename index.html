@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Warsie Page</title>
+    <title>Warsiepedia</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="icon" href="https://www.pngkey.com/png/full/626-6268258_calling-him-scruffy-looking-but-through-a-gutsy.png" sizes="40px" />
   </head>
@@ -13,12 +13,9 @@
     </header>
     <p><h3>Explore the details of your favorite characters</h3></p>
     <main>
-      <div class="statistic">
-        <p id="statsFilter"></p>        
-      </div>
       <section class="navBar">
         <nav id="naviBar">
-          <div>
+          <div class="naviBar">
             <label for="affiliation">Filter:</label>
             <select id="affiliation" name="affiliation" data-testid="select-filterAffiliation">
               <option disabled selected="">• Select Affiliation •</option>
@@ -39,13 +36,16 @@
             </select>
             <button id="clearBtn" data-testid="button-clear">Clear</button>
           </div>
-        </nav>        
-      </section>
+        </nav>
+      </section>   
+      <div class="statistic">
+        <p id="statsFilter"></p>        
+      </div>       
       <div class="cardsContainer">
         <section id="root"></section>
       </div>    
     </main>
-    <footer>Dev. Vane</footer>
+    <footer>dev. vane $</footer>
     <script src="main.js" type="module"></script>
   </body>
 </html>

@@ -7,7 +7,7 @@ export function filterAffiliation(dataset, selectedAffiliation) {
   const filteredData = dataset.filter(item => item.facts.affiliation === selectedAffiliation);
   return filteredData;
 }
-// Función para ordenar asc y desc A-Z / Edad / Estatura
+// Función para ordenar asc y desc A-Z
 export function sortData(data, sortBy) {
   const sortedData = [...data];
 
@@ -23,8 +23,9 @@ export function sortData(data, sortBy) {
 }
 
 // Función estadística para la cantidad de resultados filtrados
-export const statsFilter = (filteredData) => {
-  return filteredData.map(item => item.name).reduce((count, name) => {
+export const computeStats = (filteredData) => {
+  return filteredData.reduce((count, item) => {
+    const name = item.name;
     count[name] = (count[name] || 0) + 1;
     return count;
   }, {});

@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Jura");
 @import url("https://fonts.googleapis.com/css?family=Days+One");
 @import url("https://db.onlinewebfonts.com/c/cc3019aa6439ef893839b8a0d6d0391d?family=Star+Jedi");
+@import url("https://db.onlinewebfonts.com/c/636d3dac53dffe0023a68f90abacf4c1?family=JuraLight");
 
 * {
   padding: 0%;
@@ -28,11 +29,17 @@ body {
 }
 
 h1 {
-  color: yellow;
+  color: transparent;
   padding-top: 0px;
   text-align: center;
   font-family: "Star Jedi";
+  -webkit-text-stroke: 2px yellow;
   font-size: 60px;
+}
+
+h2:hover {
+  text-shadow: 0 0 20px #f0f06e;
+  color: yellow;
 }
 
 h2 {
@@ -42,17 +49,36 @@ h2 {
 }
 
 h3 {
-  color: white;
+  color: yellow;
   text-align: center;
-  font-family: "days one";
-  font-size: medium;
+  font-family: "JuraLight";
+  font-size: larger;
+  margin-top: 2%;
 }
 
 .statistic {
   display: flex;
   justify-content:center;
-  margin-top: 15;
-  background-color: #f2eee9;
+  margin-top: 20px;
+  
+}
+
+p {
+  display: flex;
+  margin-top: 5px;
+  color: white;
+  font-family: 'jura';
+  font-size: larger;
+  font-weight: 700;
+  line-height: 30px;
+  word-spacing: 3px;
+  letter-spacing: 3px;
+  background-color: #091E78;
+}
+
+select {
+  display: flex;
+  justify-content: space-around;
 }
 
 .navBar {
@@ -63,6 +89,7 @@ h3 {
 }
 
 #naviBar {
+  display: flex;
   font-family: 'jura';
   color: #f0f0f0;
   
@@ -70,11 +97,12 @@ h3 {
 
 #affiliation {
 	max-width: 250px;
-	position: relative;
-}
+	}
 
 #affiliation {
-	display: inline-block;
+	display: inline-flex;
+  margin-left: 3px;
+  margin-right: 25px;
 	width: 35%;
 	cursor: pointer;
   	padding: 7px 10px;
@@ -85,6 +113,7 @@ h3 {
 	background: #f8f6f6;
 	color: #faf5f5;
 	font-size: 1em;
+  font-weight: 900;
 	color: #070707;
 	font-family: 'jura';
 	border:2px solid rgba(0,0,0,0.2);
@@ -98,12 +127,13 @@ h3 {
 }
 
 #sortAZ {
-	max-width: 250px;
-	position: relative;
+	max-width: 250px;	
 }
 
 #sortAZ {
-	display: inline-block;
+	display: inline-flex;
+  margin-left: 3px;
+  margin-right: 10px;
 	width: 30%;
   transition: 0.3s;
 	cursor: pointer;
@@ -115,6 +145,7 @@ h3 {
 	background: #f0f0f0;
 	color: #1a1919;
 	font-size: 1em;
+  font-weight: 900;
 	color: #060606;
 	font-family: 'jura';
 	border:2px solid rgba(0,0,0,0.2);
@@ -127,8 +158,12 @@ h3 {
 }
 
 #clearBtn {
+  display: inline-flex;
+  font-family: 'jura';
+  font-weight: 900;
+  font-size: medium;
   padding: 10px 20px;
-  background-color: #bbcbea;
+  background-color: yellow;
   color: rgb(12, 12, 12);
   border: none;
   border-radius: 10px;
@@ -136,11 +171,12 @@ h3 {
 }
 
 #clearBtn:hover {
-  box-shadow: 0 0 10px rgb(212, 168, 213);
+  box-shadow: 0 0 10px #f0f06e;
 }
 
 #clearBtn:active {
-  background-color: #a4caa5;
+  background-color: black;
+  color: yellow;
 }
 
 .cardsContainer {
@@ -222,9 +258,9 @@ dd {
 
 footer {
   display: flex;
-  color: #f2eee9;
+  color: yellow;
   letter-spacing: 3px;
-  font-family: 'jura';
+  font-family: 'Star Jedi';
   justify-content: center;
 }
 
