@@ -64,6 +64,22 @@ export default [
     },
   },
   {
+    id: "din-djarin",
+    name: "Din Djarin (The Mandalorian)",
+    shortDescription: "Bounty Hunter and Protector",
+    description:
+      "Din Djarin, known as The Mandalorian, is a skilled bounty hunter and protector of the Child (Grogu) in the outer reaches of the galaxy.",
+    imageUrl: "https://th.bing.com/th/id/OIG.c3jlwCXOB8gc1DWYfx37?pid=ImgGn&w=1024&h=1024&rs=1",
+    facts: {
+      occupation: "Bounty Hunter and Protector",
+      affiliation: "Independent/Mandalorian",
+      placeOfBirth: "Mandalore",
+      specie: "Human",
+      age: "38 years",
+      height: "1.83 meters",
+    },
+  },
+  {
     id: "yoda",
     name: "Yoda",
     shortDescription: "Wise Jedi Master",
@@ -365,22 +381,6 @@ export default [
       specie: "Twi'lek",
       age: "33 years",
       height: "1.70 meters",
-    },
-  },
-  {
-    id: "din-djarin",
-    name: "Din Djarin (The Mandalorian)",
-    shortDescription: "Bounty Hunter and Protector",
-    description:
-      "Din Djarin, known as The Mandalorian, is a skilled bounty hunter and protector of the Child (Grogu) in the outer reaches of the galaxy.",
-    imageUrl: "https://th.bing.com/th/id/OIG.c3jlwCXOB8gc1DWYfx37?pid=ImgGn&w=1024&h=1024&rs=1",
-    facts: {
-      occupation: "Bounty Hunter and Protector",
-      affiliation: "Independent/Mandalorian",
-      placeOfBirth: "Mandalore",
-      specie: "Human",
-      age: "38 years",
-      height: "1.83 meters",
     },
   },
 ];
