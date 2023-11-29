@@ -2,6 +2,8 @@
 @import url("https://fonts.googleapis.com/css?family=Days+One");
 @import url("https://db.onlinewebfonts.com/c/cc3019aa6439ef893839b8a0d6d0391d?family=Star+Jedi");
 @import url("https://db.onlinewebfonts.com/c/636d3dac53dffe0023a68f90abacf4c1?family=JuraLight");
+@import url("https://db.onlinewebfonts.com/c/a575960e7b96141e7ec34bc95aa772e2?family=SF+Atarian+System+Extended+V2+V1");
+@import url("https://db.onlinewebfonts.com/c/28cac7a2ebb776327ddf96d71c30fe9b?family=SF+Atarian+System+Extended+Bold+V2+V1");
 
 * {
   padding: 0%;
@@ -37,9 +39,9 @@ h1 {
   font-size: 60px;
 }
 
-h2:hover {
-  text-shadow: 0 0 20px #f0f06e;
-  color: yellow;
+h1:hover {
+  text-shadow: 0 0 30px rgb(232, 232, 101);
+  color:
 }
 
 h2 {
@@ -48,8 +50,14 @@ h2 {
   font-family: "jura";
 }
 
+h2:hover {
+  text-shadow: 0 0 25px yellow;
+  color:
+}
+
 h3 {
   color: yellow;
+  background-color: black;
   text-align: center;
   font-family: "JuraLight";
   font-size: larger;
@@ -70,7 +78,8 @@ p {
   font-family: 'jura';
   font-size: larger;
   font-weight: 700;
-  line-height: 30px;
+  line-height: 40px;
+  text-indent: 5px;
   word-spacing: 3px;
   letter-spacing: 3px;
   background-color: #091E78;
@@ -82,7 +91,7 @@ select {
 }
 
 .navBar {
-  margin-top: 3%;
+  margin-top: 2%;
   display: flex;
   justify-content: space-evenly;
   align-content: space-around;
@@ -91,8 +100,8 @@ select {
 #naviBar {
   display: flex;
   font-family: 'jura';
-  color: #f0f0f0;
-  
+  font-weight: 700;
+  color: #f0f0f0;  
 }
 
 #affiliation {
@@ -102,8 +111,8 @@ select {
 #affiliation {
 	display: inline-flex;
   margin-left: 3px;
-  margin-right: 25px;
-	width: 35%;
+  margin-right: 10px;
+	width: 187px;
 	cursor: pointer;
   	padding: 7px 10px;
   	height: 42px;
@@ -123,7 +132,7 @@ select {
 }
 
 #affiliation:hover{
-	text-shadow: 0 0 20px rgb(212, 168, 213);
+	box-shadow: 0 0 15px rgb(212, 168, 213);
 }
 
 #sortAZ {
@@ -134,7 +143,7 @@ select {
 	display: inline-flex;
   margin-left: 3px;
   margin-right: 10px;
-	width: 30%;
+	width: 159px;
   transition: 0.3s;
 	cursor: pointer;
   	padding: 7px 10px;
@@ -154,7 +163,7 @@ select {
 }
 
 #sortAZ:hover{
-	text-shadow: 0 0 20px rgb(212, 168, 213);
+	box-shadow: 0 0 15px rgb(212, 168, 213);
 }
 
 #clearBtn {
@@ -171,7 +180,7 @@ select {
 }
 
 #clearBtn:hover {
-  box-shadow: 0 0 10px #f0f06e;
+  box-shadow: 0 0 15px #f0f06e;
 }
 
 #clearBtn:active {
@@ -217,6 +226,10 @@ select {
 strong {
   display: flex;
   justify-content: center;
+  font-family: "SF Atarian System Extended Bold V2 V1";
+  font-size: 20px;
+  letter-spacing:;
+  font-weight: 100;
   padding-top: 4%;
 }
 
