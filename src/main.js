@@ -4,48 +4,48 @@ import { filterAffiliation } from './dataFunctions.js';
 import { sortData } from './dataFunctions.js';
 import { computeStats } from './dataFunctions.js';
 
-// Section: Render cards
+// Sección renderizador tarjetas
 const cardsContainer = document.getElementById("root")
 cardsContainer.appendChild(renderItems(data));
 
-// Section: Filter
+// Sección filtro
 const optionFilter = document.querySelector('[name="affiliation"]');
 const clearButton = document.querySelector("#clearBtn"); 
 let selectedAffiliation = "";
 
-// Function to update the filter
+// Función actualizar filtro
 const updateFilter = () => {
-  // Filter the data and re-render the cards
+  // Filtrar data y renderizar tarjetas de nuevo
   const filteredData = filterAffiliation(data, selectedAffiliation);
   
   cardsContainer.innerHTML = "";
   cardsContainer.appendChild(renderItems(filteredData));
 
-  // Update the statistic of filtered results
+  // actializa estádísticas del filtrado
   const statsElement = document.querySelector("#statsFilter");
   const statsResult = computeStats(filteredData);
   
   const totalCount = Object.values(statsResult).reduce((total, count) => total + count, 0);
 
-  // Set the content of the HTML element
+  // establece el contenido del HTML
   statsElement.innerHTML = `Total characters: ${totalCount}`;
 };
 
-// Event for a change in the filter
+// Evento para cambiar el filtro
 optionFilter.addEventListener("change", (event) => {
   selectedAffiliation = event.target.value;
   updateFilter();
 });
 
-// Section: Clear filter button
+/// Sección botón de limpiar
 clearButton.addEventListener("click", () => {
   selectedAffiliation = "";
 
-  // Reset value for filter
+  // Reestablece Afiliación
   optionFilter.value = "• Select Affiliation •";
   updateFilter();
 
-  // Reset value for sort
+  // Reestablece orden
   optionSort.value = "• Select Order •";
   sortBy = ""; // Reset the sorting option
   const sortedData = sortData(data, sortBy);
@@ -53,15 +53,15 @@ clearButton.addEventListener("click", () => {
   cardsContainer.innerHTML = "";
   cardsContainer.appendChild(renderItems(sortedData));
 });
-//// Section: Sorting
+//// Sección ordenar
 const optionSort = document.querySelector('[name="sortAZ"]');
 let sortBy = "";
 
-// Event for a change in the sort option
+// Evento para cambiar el orden
 optionSort.addEventListener("change", function (event) {
   sortBy = event.target.value;
 
-  // Sort the filtered data if it exists, otherwise sort the original data
+  // ordena la data filtrada o la que ya se encuentra por default
   const dataToSort = selectedAffiliation ? filterAffiliation(data, selectedAffiliation) : data;
   const sortedData = sortData(dataToSort, sortBy);
 
@@ -69,18 +69,18 @@ optionSort.addEventListener("change", function (event) {
   cardsContainer.appendChild(renderItems(sortedData));
 });
 
-//// Section: Statistics
+//// Sección estadística
 const statsElement = document.querySelector("#statsFilter");
-const filteredData = filterAffiliation(data, selectedAffiliation); // Make sure filteredData is defined
+const filteredData = filterAffiliation(data, selectedAffiliation);
 const statsResult = computeStats(filteredData);
 
-// Get the total number of characters
+// obtiene total de personajes
 const totalCount = Object.values(statsResult).reduce((total, count) => total + count, 0);
 
-// Set the content of the HTML element
+// contenido del HTML
 statsElement.innerHTML = "Total characters: " + totalCount;
 
-// Section: Event for clearing the filter
+// Evento para limpiar el filtro
 clearButton.addEventListener("click", updateFilter);
 
 //console.log(example, renderItems(data), data);

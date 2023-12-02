@@ -1,9 +1,8 @@
 // Función para filtrar por Afiliación
 export function filterAffiliation(dataset, selectedAffiliation) {
   if (!selectedAffiliation) {
-    return dataset; // Si no se ha seleccionado una afiliación, devuelve toda la data sin cambios
+    return dataset;
   }
-
   const filteredData = dataset.filter(item => item.facts.affiliation === selectedAffiliation);
   return filteredData;
 }
@@ -26,7 +25,8 @@ export function sortData(data, sortBy) {
 export const computeStats = (filteredData) => {
   return filteredData.reduce((count, item) => {
     const name = item.name;
-    count[name] = (count[name] || 0) + 1;
+    const countResult = parseInt(count[name], 10) || 0;
+    count[name] = countResult + 1;
     return count;
   }, {});
 };
