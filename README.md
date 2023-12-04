@@ -50,6 +50,8 @@ Para llevar a cabo la ejecución del proyecto, se adoptó la metodología Scrum,
 
 El diseño de la interfaz de la aplicación web se desarrolló utilizando la metodología Mobile First y experimentó cambios a lo largo del proyecto debido a condiciones relacionadas con la calidad de las imágenes para el fondo, así el feedback recibido por parte de mis compañeras y coaches. Como resultado final, se obtuvieron las siguientes interfaces:
 
+![image](https://github.com/vaneval27/DEV012-dataverse/assets/132302061/0e332aee-72f5-4b84-bc5c-3a6159fd4c51)
+![image](https://github.com/vaneval27/DEV012-dataverse/assets/132302061/9e96c924-93a7-4a05-b47b-78cc9b3b1c42)
 
 
 ## 4. Problemas de usabilidad
